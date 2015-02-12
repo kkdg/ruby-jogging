@@ -10,3 +10,6 @@ puts "#{names}"
 
 nums = Array.new(10) { |e| e = e * 2 }
 puts "#{nums}"
+
+n = Array.new(10) { |e| e = e + e/2 }
+puts "#{n}"
